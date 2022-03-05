@@ -1,0 +1,43 @@
+.moviecon:hover {
+  z-index: 999999;
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Safari and Chrome */
+  -o-transform: scale(1.1);
+}
+
+.moviecon {
+  transition: all;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.moviedetailscon {
+  width: 22%;
+}
+
+@media only screen and (max-width: 500px) {
+  .moviedetailscon {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .moviedetailscon {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .moviedetailscon {
+    width: 30%;
+  }
+}
+
+* {
+  font-family: cursive;
+}
